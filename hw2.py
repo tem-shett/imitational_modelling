@@ -77,9 +77,9 @@ probability_distribution = {
         Event.EXIT_QUEUE_MOVING: 0.01,
     },
     State.STANDING_IN_QUEUE: {
-        Event.CONTINUE_STANDING_IN_QUEUE: 0.7,
+        Event.CONTINUE_STANDING_IN_QUEUE: 0.9,
         Event.EXIT_QUEUE_STANDING: 0.02,
-        Event.START_MOVING_IN_QUEUE: 0.28
+        Event.START_MOVING_IN_QUEUE: 0.08
     }
 }
 
